@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="25" passed="23" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-07T02:57:59Z" name="All Test Suite" finished-at="2024-09-07T02:58:10Z" duration-ms="10431">
+    <groups>
+      <group name="system">
+        <method signature="Test03.testDivision()[pri:1, instance:org.example.demo111.TestCase.Test03@2f54a33d]" name="testDivision" class="org.example.demo111.TestCase.Test03"/>
+      </group> <!-- system -->
+      <group name="success">
+        <method signature="Test01.test3()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" name="test3" class="org.example.demo111.TestCase.Test01"/>
+        <method signature="Test03.Addition_11()[pri:1, instance:org.example.demo111.TestCase.Test03@2f54a33d]" name="Addition_11" class="org.example.demo111.TestCase.Test03"/>
+        <method signature="Test03.test_Parameters(java.lang.String)[pri:2, instance:org.example.demo111.TestCase.Test03@2f54a33d]" name="test_Parameters" class="org.example.demo111.TestCase.Test03"/>
+        <method signature="testProvider.getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" name="getName_dataProvider" class="org.example.demo111.TestCase.testProvider"/>
+      </group> <!-- success -->
+      <group name="smoke">
+        <method signature="TC1.testcase1()[pri:1, instance:org.example.demo111.TestCase.TC1@37f1104d]" name="testcase1" class="org.example.demo111.TestCase.TC1"/>
+        <method signature="Test01.test10_demo_post_Json_Success()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" name="test10_demo_post_Json_Success" class="org.example.demo111.TestCase.Test01"/>
+        <method signature="Test01.test11_demo_post_Json_fail()[pri:1, instance:org.example.demo111.TestCase.Test01@60015ef5]" name="test11_demo_post_Json_fail" class="org.example.demo111.TestCase.Test01"/>
+        <method signature="Test01.test4_jf0001()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" name="test4_jf0001" class="org.example.demo111.TestCase.Test01"/>
+        <method signature="Test01.test6_jf0006_smsCodeSuccess()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" name="test6_jf0006_smsCodeSuccess" class="org.example.demo111.TestCase.Test01"/>
+        <method signature="Test01.test6_jf0006_smsCodefail()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" name="test6_jf0006_smsCodefail" class="org.example.demo111.TestCase.Test01"/>
+        <method signature="Test01.test7_boc_smsCodefail()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" name="test7_boc_smsCodefail" class="org.example.demo111.TestCase.Test01"/>
+        <method signature="Test01.test8_boc_smsCodeSuccess()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" name="test8_boc_smsCodeSuccess" class="org.example.demo111.TestCase.Test01"/>
+      </group> <!-- smoke -->
+      <group name="checklist">
+        <method signature="testProvider.getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" name="getName_dataProvider" class="org.example.demo111.TestCase.testProvider"/>
+      </group> <!-- checklist -->
+      <group name="sit">
+        <method signature="TC1.testcase2(java.lang.Integer, java.lang.String)[pri:1, instance:org.example.demo111.TestCase.TC1@37f1104d]" name="testcase2" class="org.example.demo111.TestCase.TC1"/>
+        <method signature="testProvider.getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" name="getName_dataProvider" class="org.example.demo111.TestCase.testProvider"/>
+      </group> <!-- sit -->
+    </groups>
+    <test started-at="2024-09-07T02:57:59Z" name="D:/IDEAProjects/demo111" finished-at="2024-09-07T02:58:10Z" duration-ms="10431">
+      <class name="org.example.demo111.TestCase.TC1">
+        <test-method signature="testcase1()[pri:1, instance:org.example.demo111.TestCase.TC1@37f1104d]" started-at="2024-09-07T02:58:10Z" name="testcase1" finished-at="2024-09-07T02:58:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2(java.lang.Integer, java.lang.String)[pri:1, instance:org.example.demo111.TestCase.TC1@37f1104d]" started-at="2024-09-07T02:58:10Z" name="testcase2" data-provider="dp" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase2(java.lang.Integer, java.lang.String)[pri:1, instance:org.example.demo111.TestCase.TC1@37f1104d]" started-at="2024-09-07T02:58:10Z" name="testcase2" data-provider="dp" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase2(java.lang.Integer, java.lang.String)[pri:1, instance:org.example.demo111.TestCase.TC1@37f1104d]" started-at="2024-09-07T02:58:10Z" name="testcase2" data-provider="dp" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- org.example.demo111.TestCase.TC1 -->
+      <class name="org.example.demo111.TestCase.testProvider">
+        <test-method signature="getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" started-at="2024-09-07T02:58:10Z" name="getName_dataProvider" data-provider="testData" finished-at="2024-09-07T02:58:10Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[value0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName_dataProvider -->
+        <test-method signature="getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" started-at="2024-09-07T02:58:10Z" name="getName_dataProvider" data-provider="testData" finished-at="2024-09-07T02:58:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[value1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName_dataProvider -->
+        <test-method signature="getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" started-at="2024-09-07T02:58:10Z" name="getName_dataProvider" data-provider="testData" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[value2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName_dataProvider -->
+        <test-method signature="getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" started-at="2024-09-07T02:58:10Z" name="getName_dataProvider" data-provider="testData" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[value3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName_dataProvider -->
+        <test-method signature="getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" started-at="2024-09-07T02:58:10Z" name="getName_dataProvider" data-provider="testData" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[value4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[104]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName_dataProvider -->
+        <test-method signature="getName_dataProvider(java.lang.String, int)[pri:1, instance:org.example.demo111.TestCase.testProvider@55740540]" started-at="2024-09-07T02:58:10Z" name="getName_dataProvider" data-provider="testData" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[value5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[105]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName_dataProvider -->
+      </class> <!-- org.example.demo111.TestCase.testProvider -->
+      <class name="org.example.demo111.TestCase.Test01">
+        <test-method signature="test1()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:57:59Z" name="test1" finished-at="2024-09-07T02:57:59Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:58:00Z" name="test3" finished-at="2024-09-07T02:58:02Z" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4_jf0001()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:58:02Z" name="test4_jf0001" finished-at="2024-09-07T02:58:05Z" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4_jf0001 -->
+        <test-method signature="test6_jf0006_smsCodefail()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:58:05Z" name="test6_jf0006_smsCodefail" finished-at="2024-09-07T02:58:06Z" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6_jf0006_smsCodefail -->
+        <test-method signature="test6_jf0006_smsCodeSuccess()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:58:06Z" name="test6_jf0006_smsCodeSuccess" finished-at="2024-09-07T02:58:09Z" duration-ms="3013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6_jf0006_smsCodeSuccess -->
+        <test-method signature="test7_boc_smsCodefail()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:58:09Z" name="test7_boc_smsCodefail" finished-at="2024-09-07T02:58:09Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7_boc_smsCodefail -->
+        <test-method signature="test8_boc_smsCodeSuccess()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:58:09Z" name="test8_boc_smsCodeSuccess" finished-at="2024-09-07T02:58:09Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8_boc_smsCodeSuccess -->
+        <test-method signature="test10_demo_post_Json_Success()[pri:0, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:58:09Z" name="test10_demo_post_Json_Success" finished-at="2024-09-07T02:58:10Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10_demo_post_Json_Success -->
+        <test-method signature="test11_demo_post_Json_fail()[pri:1, instance:org.example.demo111.TestCase.Test01@60015ef5]" started-at="2024-09-07T02:58:10Z" name="test11_demo_post_Json_fail" finished-at="2024-09-07T02:58:10Z" duration-ms="9" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [8888] but found [9999]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [8888] but found [9999]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at org.example.demo111.TestCase.Test01.test11_demo_post_Json_fail(Test01.java:196)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11_demo_post_Json_fail -->
+      </class> <!-- org.example.demo111.TestCase.Test01 -->
+      <class name="org.example.demo111.TestCase.Test03">
+        <test-method signature="Addition_11()[pri:1, instance:org.example.demo111.TestCase.Test03@2f54a33d]" started-at="2024-09-07T02:58:10Z" name="Addition_11" finished-at="2024-09-07T02:58:10Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition_11 -->
+        <test-method signature="testDivision()[pri:1, instance:org.example.demo111.TestCase.Test03@2f54a33d]" started-at="2024-09-07T02:58:10Z" name="testDivision" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="test_Parameters(java.lang.String)[pri:2, instance:org.example.demo111.TestCase.Test03@2f54a33d]" started-at="2024-09-07T02:58:10Z" name="test_Parameters" data-provider="testParam" finished-at="2024-09-07T02:58:10Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dddddddd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Parameters -->
+        <test-method signature="test_Parameters(java.lang.String)[pri:2, instance:org.example.demo111.TestCase.Test03@2f54a33d]" started-at="2024-09-07T02:58:10Z" name="test_Parameters" data-provider="testParam" finished-at="2024-09-07T02:58:10Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kkkkkk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Parameters -->
+        <test-method signature="test_Parameters(java.lang.String)[pri:2, instance:org.example.demo111.TestCase.Test03@2f54a33d]" started-at="2024-09-07T02:58:10Z" name="test_Parameters" data-provider="testParam" finished-at="2024-09-07T02:58:10Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mmmmm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Parameters -->
+      </class> <!-- org.example.demo111.TestCase.Test03 -->
+    </test> <!-- D:/IDEAProjects/demo111 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
