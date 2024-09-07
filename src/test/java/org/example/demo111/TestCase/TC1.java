@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class TC1 {
+    //15：08
+    //2024.9.7 15:02
     //2024.9.7 12:45
     //2024.9.7 12:05
     // 将该case 的groups标注为 mark；priority表示运行顺序
