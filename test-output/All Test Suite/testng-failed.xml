@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="D:/IDEAProjects/demo111(failed)">
+    <groups>
+      <run>
+        <include name="sit"/>
+        <include name="success1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.example.demo111.TestCase.Test01">
+        <methods>
+          <include name="test11_demo_post_Json_fail"/>
+        </methods>
+      </class> <!-- org.example.demo111.TestCase.Test01 -->
+    </classes>
+  </test> <!-- D:/IDEAProjects/demo111(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
