@@ -133,7 +133,7 @@ public class Test01 {
         System.out.println("");
     }
 
-    @Test(priority = 0, enabled = true, groups = "smoke")
+    @Test(priority = 0, enabled = true, groups = {"smoke","system"})
     public void test10_demo_post_Json_Success() throws IOException {
         //http post json请求
         Map<String, Object> jsonObject = new HashMap<>();

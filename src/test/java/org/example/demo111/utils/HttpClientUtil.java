@@ -126,27 +126,18 @@ public class HttpClientUtil {
                 JSONObject jsonObject = new JSONObject();
                 for (Map.Entry<String, Object> param : paramMap.entrySet()) {
                     jsonObject.put(param.getKey(), param.getValue());
-                    System.out.println("####param.getKey():"+param.getKey());
-                    System.out.println("####param.getValue():"+param.getValue());
                 }
-                System.out.println("#############1,jsonObject:"+jsonObject);
                 StringEntity entity = new StringEntity(jsonObject.toString(), "utf-8");
-                System.out.println("#############1,entity:"+entity);
                 //设置请求编码
                 entity.setContentEncoding("utf-8");
                 //设置数据类型
                 entity.setContentType("application/json");
                 httpPost.setEntity(entity);
             }
-
             // 设置请求配置
             httpPost.setConfig(builderRequestConfig());
-            System.out.println("#############1,builderRequestConfig():"+builderRequestConfig());
-
             // 执行http请求
             response = httpClient.execute(httpPost);
-            System.out.println("########response:"+response.toString());
-
             resultString = EntityUtils.toString(response.getEntity(), "UTF-8");
         } catch (Exception e) {
             e.printStackTrace();
