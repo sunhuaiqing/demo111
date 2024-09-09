@@ -3,11 +3,12 @@
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="D:/IDEAProjects/demo111(failed)">
     <classes>
-      <class name="org.example.demo111.TestCase.Test01">
+      <class name="org.example.demo111.TestCase.TestCMCC">
         <methods>
+          <include name="test4_jf0001"/>
           <include name="test11_demo_post_Json_fail"/>
         </methods>
-      </class> <!-- org.example.demo111.TestCase.Test01 -->
+      </class> <!-- org.example.demo111.TestCase.TestCMCC -->
     </classes>
   </test> <!-- D:/IDEAProjects/demo111(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
