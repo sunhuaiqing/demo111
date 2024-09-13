@@ -24,7 +24,7 @@ public class TestCMCC {
     @Test(priority = 0, enabled = true,  groups = "smoke")
     public void test3() throws IOException {
         System.out.println("开始执行测试用例：test3()");
-        //http get请求
+        //http get请求123123
         String url = "https://api.uomg.com/api/rand.qinghua";
         Map<String, String> parametersMap = new HashMap<>();
         parametersMap.put("interCode", "XXXX123");
