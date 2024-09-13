@@ -17,14 +17,13 @@ public class TestCMCC {
     @Test(dependsOnMethods = {"test3"}, priority = 0, groups = "smoke")
     public void test2() {
         System.out.println("开始执行测试用例：test2()");
-        System.out.println("this.toString()" + this.toString());
         System.out.println("");
     }
 
     @Test(priority = 0, enabled = true,  groups = "smoke")
     public void test3() throws IOException {
         System.out.println("开始执行测试用例：test3()");
-        //http get请求123123
+        //http get请求1231237777777777
         String url = "https://api.uomg.com/api/rand.qinghua";
         Map<String, String> parametersMap = new HashMap<>();
         parametersMap.put("interCode", "XXXX123");
@@ -80,9 +79,7 @@ public class TestCMCC {
         System.out.println("http请求入参：" + parametersMap);
         System.out.println("http请求返参:" + response);
         System.out.println("");
-
     }
-
 
     @Test(priority = 1, enabled = true, groups = "smoke")
     public void test7_boc_smsCodefail() throws IOException {
@@ -173,6 +170,5 @@ public class TestCMCC {
         System.out.println("http请求返参解析，data:" + data);
         System.out.println("");
         Assert.assertEquals(returnCode, "8888");
-
     }
 }
