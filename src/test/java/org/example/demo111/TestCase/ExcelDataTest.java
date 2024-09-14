@@ -38,7 +38,7 @@ public class ExcelDataTest {
         datainfo.put("route_auth_token", "454dfsdfasf345d34");
         datainfo.put("vbs_env_no", "232");
         datainfo.put("bid", "667890");
-        datainfo.put("lending_time", "2023-08-12 12:00:00");
+        datainfo.put("lending_time", "2024-08-12 12:00:00");
         jsonObject.put("datainfo", datainfo);
         String url = "http://127.0.0.1:8791/index";
         String response = HttpClientUtil.doPost4Json(url, jsonObject);

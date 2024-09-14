@@ -5,7 +5,6 @@
     <classes>
       <class name="org.example.demo111.TestCase.TestCMCC">
         <methods>
-          <include name="test4_jf0001"/>
           <include name="test11_demo_post_Json_fail"/>
         </methods>
       </class> <!-- org.example.demo111.TestCase.TestCMCC -->
