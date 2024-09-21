@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.example.demo111.utils.ExcelDataUtil;
 import org.example.demo111.utils.HttpClientUtil;
+import org.springframework.beans.factory.annotation.Value;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -13,8 +14,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ExcelDataTest {
+
+    //读取application.properties配置文件
+    @Value("${driver}")
+    String driver;
+
     @DataProvider(name = "loginUser")
     public Object[][] loginUserData() {
+        System.out.println("@@@@@@@@@@@@driver:"+driver);
         //excel的文件名和类名一致，ExcelDataTest,测试方法和sheet名一致，testLogin
         ExcelDataUtil e = new ExcelDataUtil("ExcelDataTest", "testLogin");
         return e.getExcelData();

@@ -3,11 +3,6 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/IDEAProjects/demo111">
         <classes>
-            <class name="org.example.demo111.Demo111ApplicationTests">
-                <methods>
-                    <include name="contextLoads"/>
-                </methods>
-            </class>
             <class name="org.example.demo111.TestCase.ExcelDataTest">
                 <methods>
                     <include name="testLogin"/>

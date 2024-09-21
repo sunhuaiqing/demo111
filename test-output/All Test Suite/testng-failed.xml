@@ -3,8 +3,14 @@
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="D:/IDEAProjects/demo111(failed)">
     <classes>
+      <class name="org.example.demo111.TestCase.ExcelDataTest">
+        <methods>
+          <include name="testLogin" invocation-numbers="1 2 4"/>
+        </methods>
+      </class> <!-- org.example.demo111.TestCase.ExcelDataTest -->
       <class name="org.example.demo111.TestCase.TestCMCC">
         <methods>
+          <include name="test3"/>
           <include name="test11_demo_post_Json_fail"/>
         </methods>
       </class> <!-- org.example.demo111.TestCase.TestCMCC -->
