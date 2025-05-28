@@ -13,6 +13,7 @@ import java.util.Map;
 
 @SpringBootTest
 public class TestCMCC {
+    //2025.5.28
 
     @Test(dependsOnMethods = {"test3"}, priority = 0, groups = "smoke")
     public void test2() {
